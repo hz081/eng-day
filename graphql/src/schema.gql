@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Sample {
+  param1: String!
+  param2: String
+}
+
+type Query {
+  getSample(query: SampleInput!): Sample!
+}
+
+input SampleInput {
+  param1: String!
+  param2: String
+  page: String
+  limit: String
+}

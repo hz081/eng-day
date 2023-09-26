@@ -1,0 +1,19 @@
+syntax="proto3";
+
+package sample_proto;
+
+message SampleRequest {
+    string param1 = 1;
+    string param2 = 2;
+}
+
+message SampleResponse {
+    string param1 = 1;
+    string param2 = 2;
+}
+
+service SampleGrpc {
+    rpc getSample (SampleRequest) returns (SampleResponse) {}
+}
+  
+
