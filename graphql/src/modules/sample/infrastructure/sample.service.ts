@@ -1,7 +1,7 @@
-import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { ISampleService } from '../services/sample.interface';
 import { Sample } from '../types/sample.type';
-import { ClientGrpc } from '@nestjs/microservices';
+// import { ClientGrpc } from '@nestjs/microservices';
 // import { SampleGrpcClient } from '../../../../../protobuf/modules/sample/sample';
 
 @Injectable()
